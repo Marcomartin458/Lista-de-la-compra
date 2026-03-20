@@ -1,0 +1,137 @@
+
+/* Fuente de google */
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&display=swap');
+
+/* Estilos generales de la pagina index */
+:root{
+    --color-primario: #fdfdfd17;
+    --color-secundario: rgb(38, 111, 160);
+    --color-fondo: #f0f0f0d3;
+    --color-texto: #1d1d1d;
+}
+
+/* Reset de la página para evitar que el navegador ponga estilos por defecto */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Estilos del body: fuente, fondo fijo y centrado y contenido tambien */
+body{
+    font-family: 'Google Sans Flex', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+    background-image:url(/EjercicioEv2/img/image.png);
+    background-size: cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+/* Estilos del contenedor */
+.contenedor{
+    padding: 3rem;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 10rem;
+    background-color:#f0f0f062;
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    width: 80%;
+    height: 500px;
+    animation-name: contenedor;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    align-items: center;
+    justify-content: center;
+}
+/* Estilos del titulo */
+
+.titulo{
+    background-color: var(--color-primario);
+    border-radius: 20px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.6);
+    padding: 2rem;
+    font-size:2rem;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    margin-bottom: 2rem;
+    justify-self: center;
+}
+/* Estilo del contenedor, la caja gigante donde va todo */
+.contenedor p{
+    padding: 2rem;
+    font-size:0.9rem;
+    color: rgb(39, 39, 39);
+    text-align: center;
+    justify-self: center;
+}
+/* Estilo para que el link del boton salga centrado y sin linea debajo */
+.link-main{
+    text-decoration: none;
+    justify-self: center;
+}
+/* Estilo del boton */
+.btn-index{
+    font-size: large;
+    font-weight: bold;
+    color: rgb(39, 39, 39);
+    padding: 1rem 2rem;
+    background-color: var(--color-primario);
+    text-decoration: none;
+    border-radius: 80px;
+    border: none; 
+    width: 200px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.3); 
+    justify-self: center;
+    cursor: pointer; 
+}
+/* Hover del boton */
+.btn-index:hover{
+    background-color: rgba(255, 255, 255, 0.377);
+    transition: background-color 0.5s ease;
+    transform: scale(1.05);
+}
+/* Animacion para que el contenedor aparezca */
+@keyframes contenedor{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* Media query para tablets */
+@media (max-width: 1024px) {
+    .contenedor {
+        grid-template-columns: auto; 
+        height: auto;
+        width: auto;
+    }
+    .titulo {
+        font-size: 1.2rem;
+        gap: 3rem;
+    }
+
+}
+/* Media query para moviles */
+@media (max-width: 780px) {
+    .contenedor {
+        grid-template-columns: auto;
+        height: auto;
+        width: auto;
+        
+    }
+    .titulo {
+        font-size: 1.2rem;
+        gap: 3rem;
+    }
+      
+}

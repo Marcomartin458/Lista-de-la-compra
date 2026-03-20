@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<productos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+            xsi:noNamespaceSchemaLocation="dataMercado.xsd">
+
+    <producto>
+        <imagen>img/leche.jpg</imagen>
+        <nombre>Leche</nombre>
+        <cantidad>2 litros</cantidad>
+        <descripcion>Bebida nutritiva rica en calcio y proteínas, obtenida principalmente de la vaca. Se consume sola o como base para muchos alimentos y bebidas.</descripcion>
+    </producto>
+
+    <producto>
+        <imagen>img/pan.jpg</imagen>
+        <nombre>Pan</nombre>
+        <cantidad>1 barra</cantidad>
+        <descripcion>Alimento básico elaborado con harina, agua y levadura horneados.
+        Es una fuente importante de carbohidratos y se consume en múltiples formas.</descripcion>
+    </producto>
+
+    <producto>
+        <imagen>img/huevos.jpg</imagen>
+        <nombre>Huevos</nombre>
+        <cantidad>12 unidades</cantidad>
+        <descripcion>Producto de origen animal muy rico en proteínas y nutrientes esenciales.
+        Se pueden cocinar de muchas maneras y forman parte de numerosos platos.</descripcion>
+    </producto>
+
+    <producto>
+        <imagen>img/manzanas.jpg</imagen>
+        <nombre>Manzanas</nombre>
+        <cantidad>6 unidades</cantidad>
+        <descripcion>Fruta dulce o ligeramente ácida, rica en fibra y vitaminas.
+        Se consume fresca, en jugos, postres o preparaciones culinarias.</descripcion>
+    </producto>
+
+    <producto>
+        <imagen>img/arroz.jpg</imagen>
+        <nombre>Arroz</nombre>
+        <cantidad>1 kg</cantidad>
+        <descripcion>Cereal ampliamente consumido en todo el mundo como alimento básico.
+        Aporta principalmente carbohidratos y sirve como base para muchos platos.</descripcion>
+    </producto>
+
+    <producto>
+        <imagen>img/pollo.jpeg</imagen>
+        <nombre>Pollo</nombre>
+        <cantidad>1 kg</cantidad>
+        <descripcion>Carne blanca muy consumida por su alto contenido en proteínas.
+        Se puede preparar al horno, a la plancha, frito o en guisos.</descripcion>
+    </producto>
+
+    <producto>
+        <imagen>img/queso.jpg</imagen>
+        <nombre>Queso</nombre>
+        <cantidad>500 g</cantidad>
+        <descripcion>Producto lácteo obtenido al coagular la leche y separar el suero.
+        Existe en muchas variedades con diferentes sabores, texturas y curaciones.</descripcion>
+    </producto>
+
+    <producto>
+        <imagen>img/cafe.jpg</imagen>
+        <nombre>Café</nombre>
+        <cantidad>250 g</cantidad>
+        <descripcion>Bebida estimulante elaborada a partir de granos tostados de café.
+        Es apreciada por su aroma y su contenido en cafeína.</descripcion>
+    </producto>
+
+    <producto>
+        <imagen>img/aceite.jpeg</imagen>
+        <nombre>Aceite de oliva</nombre>
+        <cantidad>1 litro</cantidad>
+        <descripcion>Grasa vegetal obtenida del prensado de las aceitunas.
+        Es muy valorado en la cocina por su sabor y sus beneficios saludables.</descripcion>
+    </producto>
+    
+</productos>
